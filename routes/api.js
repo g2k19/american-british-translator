@@ -1,6 +1,5 @@
 'use strict';
 
-const { CreateSecretRequestFilterSensitiveLog } = require('@aws-sdk/client-secrets-manager');
 const Translator = require('../components/translator.js');
 
 module.exports = function (app) {
